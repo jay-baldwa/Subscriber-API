@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/15
+
+###
+POST http://localhost:3000/subscribers
+
+# Content-Type: application/json
+
+# {
+#     "name": "john doe",
+#     "subscribeToChannel": "Javascript Sol"
+# }
+
+
+###
+DELETE http://localhost:3000/subscribers/65c35f6cd3a1988f12db03d5
+
+
+
+###
+PATCH http://localhost:3000/subscribers/65c36493d3a1988f12db03d6
+Content-Type: application/json
+
+{
+    "name": "madhav"
+}
